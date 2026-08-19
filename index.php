@@ -1,11 +1,9 @@
 <?php include 'cabecalho.php'; ?>
 <style>
-    div {
-        border: 1px solid #117ae2;
-    }
+    
 </style>
 
-<div class="row">
+<div class="row w-100">
     <div class="col-md-4"></div>
 
     <div class="col-md-4">
@@ -18,7 +16,9 @@
              <label for="senha">Senha</label>
                 <input class="form-control" type="password" name="senha" id="senha">
          <div class="row">
-             <div class="col-md-6"></div>
+             <div class="col-md-6">
+                <button type="submit" class="btn btn-primary">Entrar</button>
+             </div>
              <div class="col-md-6"></div>
          </div> 
            </form>
