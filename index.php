@@ -15,11 +15,13 @@
                 <input class="form-control" type="text" name="login" id="login">
              <label for="senha">Senha</label>
                 <input class="form-control" type="password" name="senha" id="senha">
-         <div class="row">
+         <div class="row mt-3">
              <div class="col-md-6">
                 <button type="submit" class="btn btn-primary">Entrar</button>
              </div>
-             <div class="col-md-6"></div>
+             <div class="col-md-6 align-items-center d-flex justify-content-end">
+                <input type="checkbox" class= "form-check-input mx-2" value="senha"/> Salvar senha
+             </div>
          </div> 
            </form>
          </div>
