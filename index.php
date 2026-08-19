@@ -1,4 +1,19 @@
 <?php include 'cabecalho.php'; ?>
+
+<?php 
+if( isset($_POST["login"]) )
+{
+  if(empty($_POST["login"]))
+  {
+    $mensagemErro = "Preencha o campos de login";
+  }
+    //Procedimento para banco de dados
+}
+else
+{
+  
+}
+?>
 <style>
     
 </style>
@@ -10,6 +25,16 @@
 
         <div class="card">
          <div class="card-body">
+
+            <?php
+      if(isset($mensagemErro) && !empty($mensagemErro))
+      {
+        echo  '<div class="alert alert-danger">';
+        echo $mensagemErro;
+        echo  '</div>';
+      }
+    ?>
+
            <form action="" method="post">
              <label for="login">Username</label>
                 <input class="form-control" type="text" name="login" id="login">
