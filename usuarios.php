@@ -12,7 +12,12 @@
                         <a href="novousuario.php" class="btn btn-success">Novo usuário</a>
                     </div>
                     <div class="col-8">
-
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control">
+                                <button class="btn btn-primary" type="button">
+                                    Pesquisar
+                                </button>
+                            </div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,3 @@
-//http://localhost:8081/projetopwb/
 
 
 <!DOCTYPE html>
@@ -20,10 +19,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="./index.php">Index</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="./usuarios.php">Usuários</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
@@ -36,5 +35,5 @@
   </div>
 </nav>
 
-<div class="container h-75 d-flex align-items-center">
+<div class="container h-75 pt-5">
    
