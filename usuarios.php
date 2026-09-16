@@ -1,5 +1,5 @@
 <?php include "cabecalho.php"; ?>
-<div class="row" style="border:1px solid" >
+<div class="row" >
     <div class="col-12">
         <div class="card">
             <div class="card-header">
