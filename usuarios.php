@@ -28,5 +28,3 @@
 </div><!-- fechador da ROW -->
 
 <?php include "rodape.php"; ?>
-
-
