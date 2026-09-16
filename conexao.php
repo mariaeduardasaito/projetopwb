@@ -16,3 +16,4 @@ $resultado = mysqli_query($conexao, $sql);
 mysqli_select_db($conexao, "AulaDb");
 
 ?>
+
